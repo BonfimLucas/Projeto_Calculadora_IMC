@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #A2DCF2;
+}
+
+main{
+    background-color: white;
+    color: #3f8Ebf;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    height: 500px;
+    border: 2px solid #56a2d1;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.414);
+    
+}
+
+table{
+    margin: 20px 0px;
+    width: 300px;
+    font-size: small;
+}
+
+th{
+    text-align: left;
+}
+
+form{
+    margin: 20px 0px;
+}
+
+
+#ipeso{
+    width: 270px;
+    height: 30px;
+    border: 1px solid #56a2d1;
+    border-radius: 10px;
+    color: #3f8Ebf;
+}
+
+#ialtura{
+    width: 270px;
+    height: 30px;
+    border: 1px solid #56a2d1;
+    border-radius: 10px;
+    color: #3f8Ebf;
+}
+
+#btn{
+    border-radius: 40px;
+    color: #1c8dd3;
+    border: none;
+    font-size: larger;
+    background-color: #A2DCF2;
+    height: 40px;
+    margin-top: 30px;
+    width: 270px;
+    cursor: pointer;
+}
+
+#ialtura:focus{
+    outline: 1px solid #56a2d1;
+}
+
+#ipeso:focus{
+    outline: 1px solid #56a2d1;
+}
+
+.paragrafo-resultado{
+    background-color: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
